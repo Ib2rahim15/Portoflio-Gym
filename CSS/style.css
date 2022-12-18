@@ -547,3 +547,34 @@ hr {
   }
 }
 /* END CONTINER */
+@media (max-width: 1366px) {
+  html{
+    font-size: 0.7rem;
+  }
+  #skills{
+    grid-template-columns: repeat(2,50%) ;
+    height: max-content;
+  }
+  .photoPort{
+    width: 20%;
+  }
+  .photoPort div a{
+    font-size: 0.8rem;
+    margin: 0.5rem;
+  }
+
+  #Gallary {
+    grid-template-columns: repeat(2, 30%);
+    gap: 5rem;
+  }
+  #Gallary img {
+    width: 15rem;
+    aspect-ratio: 1;
+    outline: calc(15rem / 2) solid #0009;
+    outline-offset: calc(15rem / -2);
+  }
+  #Gallary img:hover {
+    outline: 2px solid var(--Gcolor) !important;
+    outline-offset: 14px !important;
+  }
+}
