@@ -25,6 +25,10 @@
   :root{
     --Gcolor:rgba(0, 255, 234, 0.473);
   }
+  *:focus,
+*:visited,*:active,*:link {
+  color: #fff;
+}
 body{
     font-family: 'Readex Pro', sans-serif;
     background-color: black;
