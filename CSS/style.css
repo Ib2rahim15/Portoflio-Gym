@@ -188,8 +188,8 @@ html {
     object-fit: cover;
   }
   #Gallary img:hover {
-    outline: 2px solid #4ECDC4;
-    outline-offset: 14px;
+    outline: 2px solid #4ECDC4 !important;
+    outline-offset: 14px !important;
   }
   
   #Gallary {
